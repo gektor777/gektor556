@@ -8,15 +8,7 @@ Návod je rozdělen na dvě části:
 - **Část A** – jednorázové nastavení (stačí udělat jednou na školním PC)
 - **Část B** – kroky pro každý nový projekt (i po restartu PC)
 
----
-
-## Část A – Jednorázové nastavení (udělej jen poprvé)
-
-### 1. Nastavení VS Code (settings.json)
-
-Otevři příkazovou paletu (`Ctrl + Shift + P`) → zadej **"Open User Settings (JSON)"** a vlož následující konfiguraci:
-
-```json
+--- 
 {
   "terminal.integrated.profiles.windows": {
     "Git Bash Portable": {
